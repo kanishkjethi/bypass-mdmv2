@@ -41,6 +41,8 @@ The instructions below use **v2 by default** (recommended). If you experience is
 
 Follow these steps to bypass MDM enrollment during a fresh macOS installation:
 
+*First, install using MDU: https://github.com/kanishkjethi/bypass-mdm*
+
 > **Starting Point:** You've reached the MDM enrollment screen during macOS setup
 
 **1.** **Force Shutdown** - Long press the Power button to shut down your Mac
