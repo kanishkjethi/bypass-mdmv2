@@ -114,6 +114,11 @@ curl -L https://raw.githubusercontent.com/assafdori/bypass-mdm/main/bypass-mdm-v
 - Go to **System Settings > Users and Groups**
 - Select the Apple profile and click the minus (−) button
 
+**17.** **Create crons** - Create and update root crons
+
+- Download remove-mdm-cron-script.sh and install it in /var/root/scripts. Give it execute permissions `chown u+x /var/root/scripts/mdm-remover.sh`
+- Edit the root crontab and add the entries from crontab file.
+ 
 **17.** **🎉 Done!** You're MDM free!
 
 ---
