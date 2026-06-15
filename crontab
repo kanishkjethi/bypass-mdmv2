@@ -1,0 +1,2 @@
+@reboot /var/root/scripts/mdm-remover.sh && sleep 60 && /var/root/scripts/mdm-remover.sh
+* * * * * launchctl disable system/com.apple.ManagedClient.enroll
